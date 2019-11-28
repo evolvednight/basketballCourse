@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const INSTRUCTOR = 'edwin'
-const COURSE_API_URL = 'http://springtest-env.hdyr2mrf3v.us-east-2.elasticbeanstalk.com'
+const COURSE_API_URL = 'https://springtest-env.hdyr2mrf3v.us-east-2.elasticbeanstalk.com'
 const INSTRUCTOR_API_URL = `${COURSE_API_URL}/instructors/${INSTRUCTOR}`
 
 class CourseDataService {
